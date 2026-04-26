@@ -1,4 +1,4 @@
-#Initial Setup
+# Initial Setup
 mkdir backup_path
 cd backup_path
 git clone xxx
@@ -7,10 +7,10 @@ python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirement.txt
 
-#Run the backup script
+# Run the backup script
 python3 backup_bigip.py
 
-#Output
+# Output
 '''
 f5admin@ubuntu-201-202:~$ cd AMCM
 f5admin@ubuntu-201-202:~/AMCM$ source .venv/bin/activate
