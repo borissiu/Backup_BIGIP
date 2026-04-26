@@ -44,6 +44,8 @@ if len(mgmtIpList) !=0:
     response = session.post(url, json=payload, timeout=(2, 180))
     if response.status_code == 200:
       print(f'Backup device {i+1}: {mgmtIpList[i]}, {backupName}... Done!')
+    else:
+      print(f'Error: {response}')
 
     ### Start Download
     mgmt = ManagementRoot(mgmtIpList[i], user, passwd)
@@ -52,4 +54,4 @@ if len(mgmtIpList) !=0:
     print(f'Downloading Backup file: {backupName}... Done!\n')
 
 else:
-  print(f'No MgmtIP found!!!  Does the mgmt_ip.txt file in current directory?')
+  print(f'No MgmtIP found!!!  Does the bigip_mgmt_ip.txt file in current directory?')
