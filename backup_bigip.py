@@ -16,9 +16,9 @@ try:
       if line.strip()[0] != '#':
         mgmtIpList.append(line.strip())
 except FileNotFoundError:
-  print("Error: The file './mgmt_ip.txt' was not found.")
+  print("Error: The file './bigip_mgmt_ip.txt' was not found.")
 except PermissionError:
-  print("Error: You don't have permission to read the 'mgmt_ip.txt' file.")
+  print("Error: You don't have permission to read the 'bigip_mgmt_ip.txt' file.")
 
 
 if len(mgmtIpList) !=0:
