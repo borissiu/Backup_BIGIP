@@ -5,7 +5,7 @@ cd Backup_BIGIP
 
 python3 -m venv .venv  
 source .venv/bin/activate  
-pip install -r requirement.txt  
+pip install -r requirements.txt  
 ```
 
 # Run the backup script
