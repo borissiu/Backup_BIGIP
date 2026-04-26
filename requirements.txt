@@ -1,0 +1,4 @@
+f5-sdk
+python3-distutils
+requests
+setuptools
