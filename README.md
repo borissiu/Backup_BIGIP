@@ -2,7 +2,7 @@
 ```
 mkdir backup_path  
 cd backup_path  
-git clone xxx  
+git clone https://github.com/borissiu/Backup_BIGIP.git   
 
 python3 -m venv .venv  
 source .venv/bin/activate  
