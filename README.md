@@ -1,8 +1,7 @@
 # Initial Setup
 ```
-mkdir backup_path  
-cd backup_path  
 git clone https://github.com/borissiu/Backup_BIGIP.git   
+cd Backup_BIGIP
 
 python3 -m venv .venv  
 source .venv/bin/activate  
