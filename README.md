@@ -17,7 +17,8 @@ python3 backup_bigip.py
 # Output
 ```
 f5admin@ubuntu-201-202:~$ cd AMCM  
-f5admin@ubuntu-201-202:~/AMCM$ source .venv/bin/activate  
+f5admin@ubuntu-201-202:~/AMCM$ source .venv/bin/activate
+
 (.venv) f5admin@ubuntu-201-202:~/AMCM$ python3 backup_bigip.py  
 Will backup 2 BIG-IP devices, it may takes a while...  
 Username: admin  
@@ -27,7 +28,8 @@ Backup device 1: 192.168.100.20, Backup_20260426_VE-A-20.f5hklab.com.ucs... Done
 Downloading Backup file: Backup_20260426_VE-A-20.f5hklab.com.ucs... Please wait!!!  
 Downloading Backup file: Backup_20260426_VE-A-20.f5hklab.com.ucs... Done!  
 
-Backup device 2: 192.168.100.18, Backup_20260426_VE18.f5hklab.com.ucs... Please wait!!!  
+Backup device 2: 192.168.100.18, Backup_20260426_VE18.f5hklab.com.ucs... Please wait!!!
+Backup device 2: 192.168.100.18, Backup_20260426_VE18.f5hklab.com.ucs... Done!  
 Downloading Backup file: Backup_20260426_VE18.f5hklab.com.ucs... Please wait!!!  
 Downloading Backup file: Backup_20260426_VE18.f5hklab.com.ucs... Done!  
 
