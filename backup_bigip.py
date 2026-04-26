@@ -22,7 +22,7 @@ except PermissionError:
 
 
 if len(mgmtIpList) !=0:
-  print(f'Will backup {len(mgmtIpList)} BIG-IP devices, it may takes a while...')
+  print(f'Backup {len(mgmtIpList)} BIG-IP devices, it may takes a while...')
   user = input("Username: ")
   passwd = getpass.getpass("Password: ")
 
